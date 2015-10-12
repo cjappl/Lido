@@ -11,7 +11,7 @@ PROJECT_NAME = "Lido Project"
 from distutils.core import setup
 import setuptools
 
-setup(name="Lido",
+setup(name=PROJECT_NAME,
       version="1.0",
       description="Lido Project for KW, CA",
       packages=["src/content", "src/hardware"],
