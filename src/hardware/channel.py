@@ -6,11 +6,3 @@ class Channel(object):
     def set_bass_level(self, song, section, level):
         """ Sets bass level for a section """
         pass
-
-
-
-
-
-        
-
-    

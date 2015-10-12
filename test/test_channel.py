@@ -1,9 +1,8 @@
 from pydub import AudioSegment
 
 import pytest
-import numpy as np
 import os
-from hardware.channel import Channel 
+from hardware.channel import Channel
 
 BEATS_PER_PHRASE = 64
 BEATS_PER_BAR = 4
@@ -19,11 +18,6 @@ def setup_channel_A():
     return Channel("A")
 
 
-@pytest.fixture
-def setup_CDJ_A():
-    return dumb_CDJ()
-
 def test_channel_id(setup_channel_A):
     channel_A = setup_channel_A
     assert channel_A.id_string == "A"
-

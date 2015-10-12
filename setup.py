@@ -14,12 +14,14 @@ import setuptools
 setup(name=PROJECT_NAME,
       version="1.0",
       description="Lido Project for KW, CA",
-      packages=["src/content", "src/hardware"],
+      package_dir={'': 'src'},
+      packages=["content", "hardware"],
 
       zip_safe=False,
 
       install_requires=[
-          "pydub>0.14.0"
+          "pydub>0.14.0",
+          "pytest>2.7"
       ],
 
       author="Chris Apple, Kaya Woodall",
