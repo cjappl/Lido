@@ -1,4 +1,4 @@
-class Channel:
+class Channel(object):
 
     def __init__(self, id_string):
         self.id_string = id_string

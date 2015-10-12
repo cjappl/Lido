@@ -1,0 +1,11 @@
+setup.py
+Lido.egg-info/PKG-INFO
+Lido.egg-info/SOURCES.txt
+Lido.egg-info/dependency_links.txt
+Lido.egg-info/top_level.txt
+src/content/__init__.py
+src/content/song.py
+src/hardware/__init__.py
+src/hardware/channel.py
+test/test_channel.py
+test/test_song.py

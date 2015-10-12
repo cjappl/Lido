@@ -8,7 +8,7 @@
 ACCEPTABLE_FILE_TYPES = ['.mp3', '.wav']
 
 
-class Song:
+class Song(object):
 
     def __init__(self, file_path):
         self._file_path = self._init_file_path(file_path)
