@@ -1,3 +1,5 @@
 *.swp
 *.pyc
-*.egg-info
+*.swp
+Lido.egg-info/
+
