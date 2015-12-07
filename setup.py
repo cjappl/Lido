@@ -20,6 +20,7 @@ setup(name=PROJECT_NAME,
       zip_safe=False,
 
       install_requires=[
+          "numpy",
           "pydub>0.14.0",
           "pytest>2.7"
       ],
